@@ -14,6 +14,22 @@ To use this notebook:
 3. Open the notebook in a Jupyter environment.
 4. Run the cells sequentially to replicate the analysis or modify as needed for custom analysis.
 
+## Installation
+To run the "Employee Turnover Analytics V1" notebook, you need to have Python installed on your system along with the following libraries:
+
+- NumPy: For numerical computations.
+- Pandas: For data manipulation and analysis.
+- Matplotlib: For creating static, interactive, and animated visualizations.
+- Seaborn: For high-level data visualization based on Matplotlib.
+- Scikit-Learn (`sklearn`): For machine learning and data processing.
+- Imbalanced-Learn (`imblearn`): For dealing with imbalanced datasets.
+
+You can install these libraries using pip. Run the following command in your terminal or command prompt:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
+```
+
 ## Data
 The analysis is based on an HR dataset, possibly containing employee demographics, job characteristics, and turnover information. Ensure the dataset is in the correct format (e.g., Excel or CSV) and modify the data import step if the format differs.
 
